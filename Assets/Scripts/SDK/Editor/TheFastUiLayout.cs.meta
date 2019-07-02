@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 519f896e48fcb764f8b71289ed471eec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - TMP_FontAsset_1: {instanceID: 0}
+  - TMP_FontAsset_2: {instanceID: 0}
+  - f: {fileID: 11400000, guid: 7287feb961905c04da672faa3a720715, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
