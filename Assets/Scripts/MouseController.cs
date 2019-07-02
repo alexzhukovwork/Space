@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +13,7 @@ public class MouseController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonUp(0))
+		if (Input.GetMouseButtonDown(0) && Time.timeScale > 0)
 		{
 			Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			Debug.Log(p);

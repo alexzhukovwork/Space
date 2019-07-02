@@ -54,9 +54,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\Messenger\Broadcaster.cs" />
+     <Compile Include="Assets\Scripts\Messenger\Listener.cs" />
+     <Compile Include="Assets\Scripts\Messenger\UIEvents.cs" />
      <Compile Include="Assets\Scripts\MouseController.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\SDK\Messenger.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseEvent.cs" />
+     <Compile Include="Assets\Scripts\UI\ResumeEvent.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
