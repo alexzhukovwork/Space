@@ -12,6 +12,7 @@
           <e p="Messenger" t="Include">
             <e p="Broadcaster.cs" t="Include" />
             <e p="Listener.cs" t="Include" />
+            <e p="StateEvents.cs" t="Include" />
             <e p="UIEvents.cs" t="Include" />
           </e>
           <e p="MouseController.cs" t="Include" />
@@ -26,8 +27,22 @@
               <e p="TheFastUiLayout.cs" t="Include" />
             </e>
             <e p="Messenger.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="StateMachine" t="Include">
+              <e p="AppStateManager.cs" t="Include" />
+              <e p="BaseUserOfStateMachine.cs" t="Include" />
+              <e p="MultistateUserOfStateMachine.cs" t="Include" />
+              <e p="UserOfStateMachine.cs" t="Include" />
+            </e>
+          </e>
+          <e p="States" t="Include">
+            <e p="AppStateTransitionController.cs" t="Include" />
+            <e p="MenuState.cs" t="Include" />
+            <e p="PlayState.cs" t="Include" />
+            <e p="States.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="LoadSceneEvent.cs" t="Include" />
             <e p="PauseEvent.cs" t="Include" />
             <e p="ResumeEvent.cs" t="Include" />
           </e>

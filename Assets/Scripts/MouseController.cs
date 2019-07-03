@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using WebClientSDK.Scripts.StateMachine;
 
 public class MouseController : MonoBehaviour {
 	private Movement _movement;
@@ -13,7 +14,10 @@ public class MouseController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0) && Time.timeScale > 0)
+	//	if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu)
+	//		return;
+		
+		if (Input.GetMouseButtonDown(0))
 		{
 			Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			Debug.Log(p);
