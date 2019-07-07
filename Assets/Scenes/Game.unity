@@ -657,9 +657,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  maxSpeed: 15
+  maxSpeed: 5
   maxCount: 0
   currentCount: 0
+  coeffDistance: 10
+  maxVelocity: {x: 3, y: 3, z: 0}
 --- !u!212 &329785617
 SpriteRenderer:
   m_ObjectHideFlags: 0
