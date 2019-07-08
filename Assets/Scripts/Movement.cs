@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
 	
 	[SerializeField] private Vector3 maxVelocity = new Vector3(10, 10);
 	
-	private Vector3[] _axes;
+	private Vector3[] _axeses;
 	
 	private Transform _transform;
 	private Rigidbody2D _rb;
@@ -27,16 +27,16 @@ public class Movement : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		_axes = new Vector3[8];
+		_axeses = new Vector3[8];
 		
-		_axes[0] = new Vector3(0, 1);
-		_axes[1] = new Vector3(0, -1);
-		_axes[2] = new Vector3(1, 1);
-		_axes[3] = new Vector3(1, -1);
-		_axes[4] = new Vector3(-1, 1);
-		_axes[5] = new Vector3(-1, -1);
-		_axes[6] = new Vector3(1, 0);
-		_axes[7] = new Vector3(-1, 0);
+		_axeses[0] = new Vector3(0, 1);
+		_axeses[1] = new Vector3(0, -1);
+		_axeses[2] = new Vector3(1, 1);
+		_axeses[3] = new Vector3(1, -1);
+		_axeses[4] = new Vector3(-1, 1);
+		_axeses[5] = new Vector3(-1, -1);
+		_axeses[6] = new Vector3(1, 0);
+		_axeses[7] = new Vector3(-1, 0);
 		
 		_transform = transform;
 		_rb = GetComponent<Rigidbody2D>();
@@ -49,6 +49,7 @@ public class Movement : MonoBehaviour
 		{
 			_transform.position = _respawn;
 			currentCount = 0;
+			_rb.velocity = Vector3.zero;
 		}
 	}
 
@@ -64,9 +65,10 @@ public class Movement : MonoBehaviour
 		Vector3 position = _transform.position - p;
 		float coeff = 1.0f / position.sqrMagnitude / coeffDistance;
 		float currentSpeed = Mathf.Min(coeff * force, maxForce);
-		
 
-		_rb.AddForceAtPosition(currentSpeed * position.normalized, GetAxe(position.normalized), ForceMode2D.Impulse);
+		Vector3 axes = GetAxes(position.normalized);
+
+		_rb.AddForce(currentSpeed * axes, ForceMode2D.Impulse);
 		
 		if (_rb.velocity.x * _rb.velocity.x > maxVelocity.x * maxVelocity.x)
 			_rb.velocity = new Vector3(maxVelocity.x, _rb.velocity.y);
@@ -74,11 +76,10 @@ public class Movement : MonoBehaviour
 		if (_rb.velocity.y * _rb.velocity.y > maxVelocity.y * maxVelocity.y)
 			_rb.velocity = new Vector3(_rb.velocity.x, maxVelocity.y);
 		
-		Debug.Log(Time.time + " Velocity " +  _rb.velocity);
 
 	}
 
-	private Vector3 GetAxe(Vector3 p)
+	private Vector3 GetAxes(Vector3 p)
 	{
 		int minI = 0;
 
@@ -86,15 +87,15 @@ public class Movement : MonoBehaviour
 
 		float temp = 0;
 		
-		for (int i = 0; i < _axes.Length; i++)
+		for (int i = 0; i < _axeses.Length; i++)
 		{
-			if ((temp = (_axes[i] - p).sqrMagnitude) < minValue)
+			if ((temp = (_axeses[i] - p).sqrMagnitude) < minValue)
 			{
 				minValue = temp;
 				minI = i;
 			}
 		}
 
-		return _axes[minI];
+		return _axeses[minI];
 	}
 }
