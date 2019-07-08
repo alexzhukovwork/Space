@@ -657,10 +657,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 5
-  maxForce: 5
   maxCount: 0
   currentCount: 0
   coeffDistance: 10
+  minSqrDistanceToPlayer: 0.7
   maxVelocity: {x: 3, y: 3, z: 0}
 --- !u!212 &329785617
 SpriteRenderer:

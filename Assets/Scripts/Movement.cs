@@ -7,14 +7,14 @@ using Vector2 = System.Numerics.Vector2;
 public class Movement : MonoBehaviour
 {
 	[SerializeField] private float force;
-
-	[SerializeField] private float maxForce;
-
+	
 	[SerializeField] private int maxCount = 0;
 
 	[SerializeField] private int currentCount = 0;
 
 	[SerializeField] private float coeffDistance = 10;
+
+	[SerializeField] private float minSqrDistanceToPlayer = 0.25f;
 	
 	[SerializeField] private Vector3 maxVelocity = new Vector3(10, 10);
 	
@@ -63,8 +63,8 @@ public class Movement : MonoBehaviour
 		
 		p.z = 0;
 		Vector3 position = _transform.position - p;
-		float coeff = 1.0f / position.sqrMagnitude / coeffDistance;
-		float currentSpeed = Mathf.Min(coeff * force, maxForce);
+		float coeff = 1.0f / Mathf.Max(position.sqrMagnitude, minSqrDistanceToPlayer) / coeffDistance;
+		float currentSpeed = coeff * force;
 
 		Vector3 axes = GetAxes(position.normalized);
 

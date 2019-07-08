@@ -21,6 +21,8 @@ public class MouseController : MonoBehaviour {
 		{
 			Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
+			Debug.Log(p);
+			
 			_movement.AddForceFromPoint(p);
 		}
 	}
