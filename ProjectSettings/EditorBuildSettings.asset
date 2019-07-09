@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8bf577a042d450243951fe107658fa6f
+  - enabled: 1
+    path: Assets/Scenes/FirstLevel.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SelectLevel.unity
+    guid: 5c62e7f0e93cc8a4d9e75000b58a1b63
+  - enabled: 1
+    path: Assets/Scenes/SelectPlanet.unity
+    guid: be4e787834d32204ca162e612c29d4a6
   m_configObjects: {}

@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7217cec-f627-4ab2-a036-51ec4820a02c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2c/2cda990e2423bbf4892e6590ba056729" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2c/2cda990e2423bbf4892e6590ba056729" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2c/2cda990e2423bbf4892e6590ba056729.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2c/2cda990e2423bbf4892e6590ba056729.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,18 +30,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="366">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding>
-                <marker date="1562609343838" expanded="false" signature="6:133" ph="..." />
-                <marker date="1562609343838" expanded="true" signature="179:741" ph="{...}" />
-                <marker date="1562609343838" expanded="true" signature="309:359" ph="{...}" />
-                <marker date="1562609343838" expanded="true" signature="414:739" ph="{...}" />
-                <marker date="1562609343838" expanded="true" signature="417:512" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
-                <marker date="1562609343838" expanded="true" signature="563:696" ph="{...}" />
+                <marker date="1562609432663" expanded="false" signature="6:133" ph="..." />
+                <marker date="1562609432663" expanded="true" signature="179:892" ph="{...}" />
+                <marker date="1562609432663" expanded="true" signature="309:359" ph="{...}" />
+                <marker date="1562609432663" expanded="true" signature="414:890" ph="{...}" />
+                <marker date="1562609432663" expanded="true" signature="417:512" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
+                <marker date="1562609432663" expanded="true" signature="563:700" ph="{...}" />
+                <marker date="1562609432663" expanded="true" signature="747:887" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/StartManuAnimation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/States/AppStateTransitionController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="-135">
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <marker date="1562178539349" expanded="true" signature="6:94" ph="..." />
@@ -172,6 +201,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SDK/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SDK/Editor/ButtonWizard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/StartManuAnimation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SDK/Editor/FontWizard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -282,12 +312,12 @@
       <workItem from="1561279347842" duration="918000" />
       <workItem from="1562088919837" duration="4574000" />
       <workItem from="1562521501130" duration="1810000" />
-      <workItem from="1562608800181" duration="544000" />
+      <workItem from="1562608800181" duration="966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16038000" />
+    <option name="totallyTimeSpent" value="16460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/States/AppStateTransitionController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="-135">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <marker date="1562178539349" expanded="true" signature="6:94" ph="..." />
@@ -622,15 +652,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="366">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
-            <marker date="1562609343838" expanded="false" signature="6:133" ph="..." />
-            <marker date="1562609343838" expanded="true" signature="179:741" ph="{...}" />
-            <marker date="1562609343838" expanded="true" signature="309:359" ph="{...}" />
-            <marker date="1562609343838" expanded="true" signature="414:739" ph="{...}" />
-            <marker date="1562609343838" expanded="true" signature="417:512" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
-            <marker date="1562609343838" expanded="true" signature="563:696" ph="{...}" />
+            <marker date="1562609432663" expanded="false" signature="6:133" ph="..." />
+            <marker date="1562609432663" expanded="true" signature="179:892" ph="{...}" />
+            <marker date="1562609432663" expanded="true" signature="309:359" ph="{...}" />
+            <marker date="1562609432663" expanded="true" signature="414:890" ph="{...}" />
+            <marker date="1562609432663" expanded="true" signature="417:512" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
+            <marker date="1562609432663" expanded="true" signature="563:700" ph="{...}" />
+            <marker date="1562609432663" expanded="true" signature="747:887" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/StartManuAnimation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
