@@ -9,11 +9,14 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraMovement.cs" t="Include" />
+          <e p="GameLoop.cs" t="Include" />
+          <e p="IGameObject.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="StartManuAnimation.cs" t="Include" />
           </e>
           <e p="Messenger" t="Include">
             <e p="Broadcaster.cs" t="Include" />
+            <e p="GameEvents.cs" t="Include" />
             <e p="Listener.cs" t="Include" />
             <e p="StateEvents.cs" t="Include" />
             <e p="UIEvents.cs" t="Include" />

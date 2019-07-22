@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de54583e46a634ea90713f2ab3fa57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SelectLevel
+  sceneName: SelectLevelEarth
 --- !u!1 &883680512
 GameObject:
   m_ObjectHideFlags: 0
