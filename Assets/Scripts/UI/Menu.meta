@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0942724d252b8454aa7afde49f60421d
+=======
+guid: 22b21446a8844fb47a72744afa30a413
+>>>>>>> features/blackHole
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

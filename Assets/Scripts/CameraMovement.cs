@@ -5,16 +5,16 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
 
-	private Movement _movement;
+	private PlayerMovement _playerMovement;
 	
 	// Use this for initialization
 	void Start ()
 	{
-		_movement = FindObjectOfType<Movement>();
+		_playerMovement = FindObjectOfType<PlayerMovement>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		transform.position = new Vector3(transform.position.x, _movement.transform.position.y, transform.position.z);
+	void LateUpdate () {
+		transform.position = new Vector3(transform.position.x, _playerMovement.transform.position.y, transform.position.z);
 	}
 }

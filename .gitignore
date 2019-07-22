@@ -29,6 +29,7 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 
 # Unity
+/Library/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
