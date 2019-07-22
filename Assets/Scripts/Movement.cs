@@ -68,13 +68,15 @@ public class Movement : MonoBehaviour
 
 		Vector3 axes = GetAxes(position.normalized);
 
+		Debug.Log(Time.time + " FORCE " + currentSpeed * axes);
+		
 		_rb.AddForce(currentSpeed * axes, ForceMode2D.Impulse);
 		
 		if (_rb.velocity.x * _rb.velocity.x > maxVelocity.x * maxVelocity.x)
-			_rb.velocity = new Vector3(maxVelocity.x, _rb.velocity.y);
+			_rb.velocity = new Vector3(maxVelocity.x * (_rb.velocity.x < 0 ? -1 : 1), _rb.velocity.y);
 		
 		if (_rb.velocity.y * _rb.velocity.y > maxVelocity.y * maxVelocity.y)
-			_rb.velocity = new Vector3(_rb.velocity.x, maxVelocity.y);
+			_rb.velocity = new Vector3(_rb.velocity.x, maxVelocity.y * (_rb.velocity.y < 0 ? -1 : 1));
 		
 
 	}
