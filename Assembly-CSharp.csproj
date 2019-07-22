@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameLoop.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\BlackHoleController.cs" />
      <Compile Include="Assets\Scripts\IGameObject.cs" />
      <Compile Include="Assets\Scripts\Messenger\Broadcaster.cs" />
      <Compile Include="Assets\Scripts\Messenger\GameEvents.cs" />
@@ -62,7 +63,7 @@
      <Compile Include="Assets\Scripts\Messenger\StateEvents.cs" />
      <Compile Include="Assets\Scripts\Messenger\UIEvents.cs" />
      <Compile Include="Assets\Scripts\PlayerController\MouseController.cs" />
-     <Compile Include="Assets\Scripts\PlayerController\Movement.cs" />
+     <Compile Include="Assets\Scripts\PlayerController\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SDK\Messenger.cs" />
      <Compile Include="Assets\Scripts\SDK\Singleton.cs" />
      <Compile Include="Assets\Scripts\SDK\StateMachine\AppStateManager.cs" />

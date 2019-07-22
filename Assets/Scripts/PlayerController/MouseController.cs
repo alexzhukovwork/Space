@@ -8,12 +8,12 @@ public class MouseController : MonoBehaviour, IGameObject
 {
 	[SerializeField] private bool isAndroid = false;
 	
-	private Movement _movement;
+	private PlayerMovement _playerMovement;
 	// Use this for initialization
 	void Start ()
 	{
 		Messenger<IGameObject>.Broadcast(GameEvents.ListenGameObject.ToString(), this);
-		_movement = FindObjectOfType<Movement>();
+		_playerMovement = FindObjectOfType<PlayerMovement>();
 	}
 	
 	// Update is called once per frame
@@ -27,7 +27,7 @@ public class MouseController : MonoBehaviour, IGameObject
 
 			Debug.Log(p);
 			
-			_movement.AddForceFromPoint(p);
+			_playerMovement.AddForceFromPoint(p);
 			
 		} 
 		else if (isAndroid && Input.touchCount > 0)
@@ -36,7 +36,7 @@ public class MouseController : MonoBehaviour, IGameObject
 
 			Debug.Log(p);
 			
-			_movement.AddForceFromPoint(p);
+			_playerMovement.AddForceFromPoint(p);
 		}
 	}
 }
