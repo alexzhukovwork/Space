@@ -14,16 +14,21 @@
             <e p="BlackHoleController.cs" t="Include" />
           </e>
           <e p="IGameObject.cs" t="Include" />
+          <e p="Logic" t="Include">
+            <e p="BigExplosion.cs" t="Include" />
+          </e>
           <e p="Messenger" t="Include">
             <e p="Broadcaster.cs" t="Include" />
             <e p="GameEvents.cs" t="Include" />
+            <e p="InputEvents.cs" t="Include" />
             <e p="Listener.cs" t="Include" />
             <e p="StateEvents.cs" t="Include" />
             <e p="UIEvents.cs" t="Include" />
           </e>
           <e p="PlayerController" t="Include">
             <e p="MouseController.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
+            <e p="MovementController.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
           </e>
           <e p="SDK" t="Include">
             <e p="Editor" t="Include">

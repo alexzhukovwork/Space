@@ -57,13 +57,16 @@
      <Compile Include="Assets\Scripts\GameLoop.cs" />
      <Compile Include="Assets\Scripts\GameObjects\BlackHoleController.cs" />
      <Compile Include="Assets\Scripts\IGameObject.cs" />
+     <Compile Include="Assets\Scripts\Logic\BigExplosion.cs" />
      <Compile Include="Assets\Scripts\Messenger\Broadcaster.cs" />
      <Compile Include="Assets\Scripts\Messenger\GameEvents.cs" />
+     <Compile Include="Assets\Scripts\Messenger\InputEvents.cs" />
      <Compile Include="Assets\Scripts\Messenger\Listener.cs" />
      <Compile Include="Assets\Scripts\Messenger\StateEvents.cs" />
      <Compile Include="Assets\Scripts\Messenger\UIEvents.cs" />
      <Compile Include="Assets\Scripts\PlayerController\MouseController.cs" />
-     <Compile Include="Assets\Scripts\PlayerController\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerController\MovementController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SDK\Messenger.cs" />
      <Compile Include="Assets\Scripts\SDK\Singleton.cs" />
      <Compile Include="Assets\Scripts\SDK\StateMachine\AppStateManager.cs" />
@@ -95,16 +98,16 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/cygwin64/home/matve/gitStuff/Space/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>G:/GameDev/Space/Space/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/cygwin64/home/matve/gitStuff/Space/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>G:/GameDev/Space/Space/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/cygwin64/home/matve/gitStuff/Space/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>G:/GameDev/Space/Space/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/cygwin64/home/matve/gitStuff/Space/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>G:/GameDev/Space/Space/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -302,10 +305,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/matve/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/alekx/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/matve/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/alekx/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
