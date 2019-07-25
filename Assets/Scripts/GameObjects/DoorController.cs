@@ -35,7 +35,7 @@ public class DoorController : MonoBehaviour
         _Left.transform.DORotate(Vector3.zero, 1, RotateMode.Fast);
         _Right.transform.DORotate(Vector3.zero, 1, RotateMode.Fast);
         
-        Invoke("Open", _TimeOpen + 1);
+        Invoke("Open", _TimeClose + 1);
 
     }
     
