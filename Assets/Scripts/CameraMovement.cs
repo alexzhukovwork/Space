@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    [SerializeField] private float CameraWidth = 3.5f;
 
-	private PlayerController _playerController;
-	
-	// Use this for initialization
-	void Start ()
+    private PlayerController _playerController;
+    private Camera _camera;
+
+    // Use this for initialization
+    void Start ()
 	{
 		_playerController = FindObjectOfType<PlayerController>();
-	}
+        _camera = GetComponent<Camera>();
+        _camera.orthographicSize = CameraWidth / _camera.aspect;
+    }
 	
 	// Update is called once per frame
 	void LateUpdate () {
