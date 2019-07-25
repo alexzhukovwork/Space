@@ -5,20 +5,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Space/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Space/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameObjects/BlackHoleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameObjects/BlackHoleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController/MouseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController/MouseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/FirstLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/0c/0cee7372fae535f44bd1fa479439706b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0c/0cee7372fae535f44bd1fa479439706b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/6f/6f0b6110b35e08f4b93317dae9ff6c0e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6f/6f0b6110b35e08f4b93317dae9ff6c0e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c8/c8c8f296918b43745bbfe50fd0080336" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c8/c8c8f296918b43745bbfe50fd0080336" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
@@ -34,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameObjects/BlackHoleController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="120">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <marker date="1563994155720" expanded="true" signature="6:78" ph="..." />
@@ -51,13 +51,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="570">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
-                <marker date="1563993961840" expanded="true" signature="6:92" ph="..." />
-                <marker date="1563993961840" expanded="true" signature="135:434" ph="{...}" />
-                <marker date="1563993961840" expanded="true" signature="213:297" ph="{...}" />
-                <marker date="1563993961840" expanded="true" signature="331:430" ph="{...}" />
+                <marker date="1564081407054" expanded="true" signature="6:92" ph="..." />
+                <marker date="1564081407054" expanded="true" signature="135:760" ph="{...}" />
+                <marker date="1564081407054" expanded="true" signature="255:426" ph="{...}" />
+                <marker date="1564081407054" expanded="true" signature="460:580" ph="{...}" />
+                <marker date="1564081407054" expanded="true" signature="605:756" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameObjects/DoorController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding>
+                <marker date="1564082563957" expanded="true" signature="6:111" ph="..." />
+                <marker date="1564082563957" expanded="true" signature="156:674" ph="{...}" />
+                <marker date="1564082563957" expanded="true" signature="426:454" ph="{...}" />
+                <marker date="1564082563957" expanded="true" signature="479:620" ph="{...}" />
+                <marker date="1564082563957" expanded="true" signature="646:667" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,19 +83,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/MouseController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="471">
               <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding>
-                <marker date="1563993682178" expanded="true" signature="6:133" ph="..." />
-                <marker date="1563993682178" expanded="true" signature="192:1757" ph="{...}" />
-                <marker date="1563993682178" expanded="true" signature="539:627" ph="{...}" />
-                <marker date="1563993682178" expanded="true" signature="711:1755" ph="{...}" />
-                <marker date="1563993682178" expanded="true" signature="714:809" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
-                <marker date="1563993682178" expanded="true" signature="844:1228" ph="{...}" />
-                <marker date="1563993682178" expanded="true" signature="851:1068" ph="/* if (_countClick == 1 &amp;&amp; Time.time - _lastTime &lt; _TimeDoubleClick) ... */" />
-                <marker date="1563993682178" expanded="true" signature="1232:1357" ph="/* if (_countClick != 0 &amp;&amp; Time.time - _lastTime &gt; _TimeDoubleClick) ... */" />
-                <marker date="1563993682178" expanded="true" signature="1393:1510" ph="{...}" />
-                <marker date="1563993682178" expanded="true" signature="1599:1752" ph="{...}" />
+                <marker date="1563994307790" expanded="false" signature="6:133" ph="..." />
+                <marker date="1563994307790" expanded="true" signature="192:1778" ph="{...}" />
+                <marker date="1563994307790" expanded="true" signature="539:627" ph="{...}" />
+                <marker date="1563994307790" expanded="true" signature="711:1776" ph="{...}" />
+                <marker date="1563994307790" expanded="true" signature="714:809" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
+                <marker date="1563994307790" expanded="true" signature="844:1228" ph="{...}" />
+                <marker date="1563994307790" expanded="true" signature="851:1068" ph="/* if (_countClick == 1 &amp;&amp; Time.time - _lastTime &lt; _TimeDoubleClick) ... */" />
+                <marker date="1563994307790" expanded="true" signature="1232:1357" ph="/* if (_countClick != 0 &amp;&amp; Time.time - _lastTime &gt; _TimeDoubleClick) ... */" />
+                <marker date="1563994307790" expanded="true" signature="1393:1531" ph="{...}" />
+                <marker date="1563994307790" expanded="true" signature="1620:1773" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/InputEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="30">
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
                 <marker date="1563988572705" expanded="true" signature="23:76" ph="{...}" />
@@ -112,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1086">
+            <state relative-caret-position="155">
               <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
               <folding>
                 <marker date="1563994202592" expanded="false" signature="6:133" ph="..." />
@@ -144,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="15">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding>
                 <marker date="1563993961917" expanded="true" signature="22:66" ph="{...}" />
@@ -183,6 +200,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/States/States.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameObjects/DoorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EFC9AC0-0C85-4654-A5A8-EFD575CAD0AF/45/0ca7b225/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/Listener.cs" root0="FORCE_HIGHLIGHTING" />
@@ -230,9 +248,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Messenger/InputEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController/MouseController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameObjects/DoorController.cs" />
       </list>
     </option>
   </component>
@@ -255,15 +274,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,11 +340,12 @@
       <workItem from="1562521501130" duration="1810000" />
       <workItem from="1562608800181" duration="1581000" />
       <workItem from="1563818695650" duration="7369000" />
+      <workItem from="1564080865159" duration="1703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24444000" />
+    <option name="totallyTimeSpent" value="26147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,12 +358,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27558637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27878466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -359,6 +377,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.20682302" />
+      <window_info anchor="bottom" id="Change Signature" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -605,13 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="101" column="5" selection-start-line="83" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -699,66 +712,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/StartManuAnimation.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/InputEvents.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <marker date="1563988572705" expanded="true" signature="23:76" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/MovementController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <marker date="1563994155753" expanded="true" signature="6:92" ph="..." />
-            <marker date="1563994155753" expanded="true" signature="142:491" ph="{...}" />
-            <marker date="1563994155753" expanded="true" signature="239:322" ph="{...}" />
-            <marker date="1563994155753" expanded="true" signature="345:407" ph="{...}" />
-            <marker date="1563994155753" expanded="true" signature="441:489" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/MouseController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <marker date="1563993682178" expanded="true" signature="6:133" ph="..." />
-            <marker date="1563993682178" expanded="true" signature="192:1757" ph="{...}" />
-            <marker date="1563993682178" expanded="true" signature="539:627" ph="{...}" />
-            <marker date="1563993682178" expanded="true" signature="711:1755" ph="{...}" />
-            <marker date="1563993682178" expanded="true" signature="714:809" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
-            <marker date="1563993682178" expanded="true" signature="844:1228" ph="{...}" />
-            <marker date="1563993682178" expanded="true" signature="851:1068" ph="/* if (_countClick == 1 &amp;&amp; Time.time - _lastTime &lt; _TimeDoubleClick) ... */" />
-            <marker date="1563993682178" expanded="true" signature="1232:1357" ph="/* if (_countClick != 0 &amp;&amp; Time.time - _lastTime &gt; _TimeDoubleClick) ... */" />
-            <marker date="1563993682178" expanded="true" signature="1393:1510" ph="{...}" />
-            <marker date="1563993682178" expanded="true" signature="1599:1752" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/StartManuAnimation.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameObjects/BlackHoleController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="120">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <marker date="1563994155720" expanded="true" signature="6:78" ph="..." />
@@ -771,9 +729,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/InputEvents.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <marker date="1563988572705" expanded="true" signature="23:76" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Messenger/GameEvents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
             <marker date="1563993961917" expanded="true" signature="22:66" ph="{...}" />
@@ -781,22 +749,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <marker date="1563993961840" expanded="true" signature="6:92" ph="..." />
-            <marker date="1563993961840" expanded="true" signature="135:434" ph="{...}" />
-            <marker date="1563993961840" expanded="true" signature="213:297" ph="{...}" />
-            <marker date="1563993961840" expanded="true" signature="331:430" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1086">
+        <state relative-caret-position="155">
           <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
           <folding>
             <marker date="1563994202592" expanded="false" signature="6:133" ph="..." />
@@ -817,6 +772,67 @@
             <marker date="1563994202592" expanded="true" signature="2829:2940" ph="{...}" />
             <marker date="1563994202592" expanded="true" signature="2891:2936" ph="{...}" />
             <marker date="1563994202592" expanded="true" signature="3002:3047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/MovementController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1563994155753" expanded="true" signature="6:92" ph="..." />
+            <marker date="1563994155753" expanded="true" signature="142:491" ph="{...}" />
+            <marker date="1563994155753" expanded="true" signature="239:322" ph="{...}" />
+            <marker date="1563994155753" expanded="true" signature="345:407" ph="{...}" />
+            <marker date="1563994155753" expanded="true" signature="441:489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController/MouseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <marker date="1563994307790" expanded="false" signature="6:133" ph="..." />
+            <marker date="1563994307790" expanded="true" signature="192:1778" ph="{...}" />
+            <marker date="1563994307790" expanded="true" signature="539:627" ph="{...}" />
+            <marker date="1563994307790" expanded="true" signature="711:1776" ph="{...}" />
+            <marker date="1563994307790" expanded="true" signature="714:809" ph="/* if (AppStateManager.Instance.CurrentlyApplicationState == States.StateApp.Menu) ... */" />
+            <marker date="1563994307790" expanded="true" signature="844:1228" ph="{...}" />
+            <marker date="1563994307790" expanded="true" signature="851:1068" ph="/* if (_countClick == 1 &amp;&amp; Time.time - _lastTime &lt; _TimeDoubleClick) ... */" />
+            <marker date="1563994307790" expanded="true" signature="1232:1357" ph="/* if (_countClick != 0 &amp;&amp; Time.time - _lastTime &gt; _TimeDoubleClick) ... */" />
+            <marker date="1563994307790" expanded="true" signature="1393:1531" ph="{...}" />
+            <marker date="1563994307790" expanded="true" signature="1620:1773" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Logic/BigExplosion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <marker date="1564081407054" expanded="true" signature="6:92" ph="..." />
+            <marker date="1564081407054" expanded="true" signature="135:760" ph="{...}" />
+            <marker date="1564081407054" expanded="true" signature="255:426" ph="{...}" />
+            <marker date="1564081407054" expanded="true" signature="460:580" ph="{...}" />
+            <marker date="1564081407054" expanded="true" signature="605:756" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameObjects/DoorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <marker date="1564082563957" expanded="true" signature="6:111" ph="..." />
+            <marker date="1564082563957" expanded="true" signature="156:674" ph="{...}" />
+            <marker date="1564082563957" expanded="true" signature="426:454" ph="{...}" />
+            <marker date="1564082563957" expanded="true" signature="479:620" ph="{...}" />
+            <marker date="1564082563957" expanded="true" signature="646:667" ph="{...}" />
           </folding>
         </state>
       </provider>
