@@ -10,12 +10,12 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 	[SerializeField] private float _DistanceCoeff = 10;
 	
 	private Vector3 _position;
-	private PlayerMovement _playerMovement;
+	private PlayerController _playerController;
 
 // Use this for initialization
 	void Start ()
 	{
-		_playerMovement = FindObjectOfType<PlayerMovement>();
+		_playerController = FindObjectOfType<PlayerController>();
 		_position = transform.position;
 		Messenger<IGameObject>.Broadcast(GameEvents.ListenGameObject.ToString(), this);
 	}
@@ -23,7 +23,7 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 
 	public void UpdateObject(float delta)
 	{
-		Vector3 playerPosition = _playerMovement.GetPosition();
+		Vector3 playerPosition = _playerController.GetPosition();
 
 		Vector3 dirVector = _position - playerPosition;
 		
@@ -32,13 +32,13 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 
 		if (dirVector.sqrMagnitude < _DeadDistance)
 		{
-			_playerMovement.Respawn();
+			_playerController.Respawn();
 		}
 		else
 		{
-			Rigidbody2D _rb = _playerMovement.GetRigidbody2D();
+			Rigidbody2D _rb = _playerController.GetRigidbody2D();
 
-			_rb.AddForce(_Force * delta * _playerMovement.GetDistanceCoeff(dirVector) * _DistanceCoeff * dirVector);
+			_rb.AddForce(_Force * delta * _playerController.GetDistanceCoeff(dirVector) * _DistanceCoeff * dirVector);
 		}
 	}
 }

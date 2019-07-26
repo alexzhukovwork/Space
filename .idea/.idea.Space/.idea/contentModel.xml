@@ -7,23 +7,43 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CameraMovement.cs" t="Include" />
           <e p="GameLoop.cs" t="Include" />
           <e p="GameObjects" t="Include">
             <e p="BlackHoleController.cs" t="Include" />
+            <e p="DoorController.cs" t="Include" />
           </e>
           <e p="IGameObject.cs" t="Include" />
+          <e p="Logic" t="Include">
+            <e p="BigExplosion.cs" t="Include" />
+          </e>
           <e p="Messenger" t="Include">
             <e p="Broadcaster.cs" t="Include" />
             <e p="GameEvents.cs" t="Include" />
+            <e p="InputEvents.cs" t="Include" />
             <e p="Listener.cs" t="Include" />
             <e p="StateEvents.cs" t="Include" />
             <e p="UIEvents.cs" t="Include" />
           </e>
           <e p="PlayerController" t="Include">
             <e p="MouseController.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
+            <e p="MovementController.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
           </e>
           <e p="SDK" t="Include">
             <e p="Editor" t="Include">

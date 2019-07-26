@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _MaxDistance: 50
-  _Force: 500
+  _Force: 250
   _DeadDistance: 1
   _DistanceCoeff: 10
 --- !u!212 &212012056269255328

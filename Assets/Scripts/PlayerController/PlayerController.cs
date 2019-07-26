@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vector2 = System.Numerics.Vector2;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	[SerializeField] private float _Force;
 	
@@ -23,8 +23,13 @@ public class PlayerMovement : MonoBehaviour
 	private Transform _transform;
 	private Rigidbody2D _rb;
 	private Vector3 _respawn;
-	
-	// Use this for initialization
+
+
+	private void Awake()
+	{
+		Messenger<Vector3, float>.AddListener(GameEvents.BigExplosion.ToString(), Explode);
+	}
+
 	void Start ()
 	{
 		_axeses = new Vector3[8];
@@ -73,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
 		Vector3 axes = GetAxes(position.normalized);
 
-		Debug.Log(Time.time + " FORCE " + currentSpeed * axes);
+	//	Debug.Log(Time.time + " FORCE " + currentSpeed * axes);
 		
 		_rb.AddForce(currentSpeed * axes, ForceMode2D.Impulse);
 		
@@ -97,6 +102,18 @@ public class PlayerMovement : MonoBehaviour
 	public Rigidbody2D GetRigidbody2D()
 	{
 		return _rb;
+	}
+
+	private void Explode(Vector3 p, float deadDistance)
+	{
+		if ((p - _transform.position).sqrMagnitude > deadDistance)
+		{
+			AddForceFromPoint(p);
+		}
+		else
+		{
+			Respawn();
+		}
 	}
 
 	private Vector3 GetAxes(Vector3 p)
