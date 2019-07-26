@@ -32,7 +32,7 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 
 		if (dirVector.sqrMagnitude < _DeadDistance)
 		{
-			_playerController.Respawn();
+			Messenger.Broadcast(GameEvents.Dead.ToString());
 		}
 		else
 		{

@@ -29,6 +29,9 @@
             <e p="DoorController.cs" t="Include" />
           </e>
           <e p="IGameObject.cs" t="Include" />
+          <e p="Input" t="Include">
+            <e p="MouseController.cs" t="Include" />
+          </e>
           <e p="Logic" t="Include">
             <e p="BigExplosion.cs" t="Include" />
           </e>
@@ -40,8 +43,9 @@
             <e p="StateEvents.cs" t="Include" />
             <e p="UIEvents.cs" t="Include" />
           </e>
-          <e p="PlayerController" t="Include">
-            <e p="MouseController.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="DeadEvent.cs" t="Include" />
+            <e p="HealthController.cs" t="Include" />
             <e p="MovementController.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
           </e>

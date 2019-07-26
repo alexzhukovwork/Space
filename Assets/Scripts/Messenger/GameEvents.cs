@@ -2,5 +2,6 @@
 {
     ListenGameObject,
 
-    BigExplosion
+    BigExplosion,
+    Dead
 }

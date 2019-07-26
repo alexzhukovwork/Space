@@ -277,7 +277,5 @@ G:\GameDev\Space\Space\Temp\bin\Debug\System.Xml.XPath.dll
 G:\GameDev\Space\Space\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
 G:\GameDev\Space\Space\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
 G:\GameDev\Space\Space\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml
-G:\GameDev\Space\Space\Temp\bin\Debug\UnityEditor.UI.dll
-G:\GameDev\Space\Space\Temp\bin\Debug\UnityEditor.UI.xml
 G:\GameDev\Space\Space\Temp\bin\Debug\DOTween.dll
 G:\GameDev\Space\Space\Temp\bin\Debug\DOTween.xml

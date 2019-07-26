@@ -655,6 +655,8 @@ GameObject:
   - component: {fileID: 329785620}
   - component: {fileID: 329785616}
   - component: {fileID: 329785621}
+  - component: {fileID: 329785622}
+  - component: {fileID: 329785623}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -674,8 +676,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Force: 40
-  _MaxCount: 0
-  _CurrentCount: 0
   _CoeffDistance: 10
   _MinSqrDistanceToPlayer: 0.7
   _MaxVelocity: {x: 6, y: 6, z: 0}
@@ -792,6 +792,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9ebfbdf8bf6bad40b3d53bb571518bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &329785622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329785615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03a3ab965ce71145bc16790b6b415de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &329785623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329785615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ed20e160ccd042a1172b2d7af335d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &414579043
