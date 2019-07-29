@@ -17,7 +17,7 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 	{
 		_movementController = FindObjectOfType<MovementController>();
 		_position = transform.position;
-		Messenger<IGameObject>.Broadcast(GameEvents.ListenGameObject.ToString(), this);
+		Messenger<IGameObject>.Broadcast(EGameEvents.ListenGameObject.ToString(), this);
 	}
 
 
@@ -32,7 +32,7 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 
 		if (dirVector.sqrMagnitude < _DeadDistance)
 		{
-			Messenger.Broadcast(GameEvents.Dead.ToString());
+			Messenger.Broadcast(EGameEvents.Dead.ToString());
 		}
 		else
 		{

@@ -11,7 +11,7 @@ public class GameLoop : MonoBehaviour
 	private void Awake()
 	{
 		_gameObjects = new List<IGameObject>();
-		Messenger<IGameObject>.AddListener(GameEvents.ListenGameObject.ToString(), AddIGameObject);
+		Messenger<IGameObject>.AddListener(EGameEvents.ListenGameObject.ToString(), AddIGameObject);
 	}
 
 	private void Update()

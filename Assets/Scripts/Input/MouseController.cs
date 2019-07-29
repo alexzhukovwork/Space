@@ -22,7 +22,7 @@ public class MouseController : MonoBehaviour, IGameObject
 	// Use this for initialization
 	void Start ()
 	{
-		Messenger<IGameObject>.Broadcast(GameEvents.ListenGameObject.ToString(), this);
+		Messenger<IGameObject>.Broadcast(EGameEvents.ListenGameObject.ToString(), this);
 	}
 	
 	// Update is called once per frame
@@ -51,7 +51,7 @@ public class MouseController : MonoBehaviour, IGameObject
 			
 			
 			if (!_wasDown)
-				Messenger<Vector3>.Broadcast(InputEvents.SingleTouch.ToString(), _lastInput);
+				Messenger<Vector3>.Broadcast(EInputEvents.SingleTouch.ToString(), _lastInput);
 
 		}
 
@@ -75,7 +75,7 @@ public class MouseController : MonoBehaviour, IGameObject
 		
 		if (_timePressed > _TimePressed)
 		{
-			Messenger<Vector3>.Broadcast(InputEvents.PressTouch.ToString(), _lastInput);
+			Messenger<Vector3>.Broadcast(EInputEvents.PressTouch.ToString(), _lastInput);
 			
 			_timePressed = 0;
 			_isDown = false;

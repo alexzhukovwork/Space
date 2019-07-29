@@ -27,6 +27,7 @@
           <e p="GameObjects" t="Include">
             <e p="BlackHoleController.cs" t="Include" />
             <e p="DoorController.cs" t="Include" />
+            <e p="HitByBigExplosion.cs" t="Include" />
           </e>
           <e p="IGameObject.cs" t="Include" />
           <e p="Input" t="Include">
@@ -34,20 +35,28 @@
           </e>
           <e p="Logic" t="Include">
             <e p="BigExplosion.cs" t="Include" />
-            <e p="OneClickHandler.cs" t="Include" />
+            <e p="SimpleExplosion.cs" t="Include" />
           </e>
           <e p="Messenger" t="Include">
             <e p="Broadcaster.cs" t="Include" />
-            <e p="GameEvents.cs" t="Include" />
-            <e p="InputEvents.cs" t="Include" />
+            <e p="EGameEvents.cs" t="Include" />
+            <e p="EInputEvents.cs" t="Include" />
             <e p="Listener.cs" t="Include" />
             <e p="StateEvents.cs" t="Include" />
             <e p="UIEvents.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="DeadEvent.cs" t="Include" />
-            <e p="HealthController.cs" t="Include" />
-            <e p="MovementController.cs" t="Include" />
+            <e p="Behavior" t="Include">
+              <e p="DeadEvent.cs" t="Include" />
+              <e p="HealthController.cs" t="Include" />
+              <e p="MovementController.cs" t="Include" />
+            </e>
+            <e p="Inventory" t="Include">
+              <e p="InventoryLogic" t="Include">
+                <e p="ShieldExecuter.cs" t="Include" />
+              </e>
+              <e p="ShieldController.cs" t="Include" />
+            </e>
           </e>
           <e p="SDK" t="Include">
             <e p="Editor" t="Include">
