@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\IGameObject.cs" />
      <Compile Include="Assets\Scripts\Input\MouseController.cs" />
      <Compile Include="Assets\Scripts\Logic\BigExplosion.cs" />
+     <Compile Include="Assets\Scripts\Logic\OneClickHandler.cs" />
      <Compile Include="Assets\Scripts\Messenger\Broadcaster.cs" />
      <Compile Include="Assets\Scripts\Messenger\GameEvents.cs" />
      <Compile Include="Assets\Scripts\Messenger\InputEvents.cs" />
@@ -76,7 +77,6 @@
      <Compile Include="Assets\Scripts\Player\DeadEvent.cs" />
      <Compile Include="Assets\Scripts\Player\HealthController.cs" />
      <Compile Include="Assets\Scripts\Player\MovementController.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SDK\Messenger.cs" />
      <Compile Include="Assets\Scripts\SDK\Singleton.cs" />
      <Compile Include="Assets\Scripts\SDK\StateMachine\AppStateManager.cs" />

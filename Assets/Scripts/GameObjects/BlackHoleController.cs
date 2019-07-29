@@ -10,12 +10,12 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 	[SerializeField] private float _DistanceCoeff = 10;
 	
 	private Vector3 _position;
-	private PlayerController _playerController;
+	private MovementController _movementController;
 
 // Use this for initialization
 	void Start ()
 	{
-		_playerController = FindObjectOfType<PlayerController>();
+		_movementController = FindObjectOfType<MovementController>();
 		_position = transform.position;
 		Messenger<IGameObject>.Broadcast(GameEvents.ListenGameObject.ToString(), this);
 	}
@@ -23,7 +23,7 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 
 	public void UpdateObject(float delta)
 	{
-		Vector3 playerPosition = _playerController.GetPosition();
+		Vector3 playerPosition = _movementController.GetPosition();
 
 		Vector3 dirVector = _position - playerPosition;
 		
@@ -36,9 +36,9 @@ public class BlackHoleController : MonoBehaviour, IGameObject
 		}
 		else
 		{
-			Rigidbody2D _rb = _playerController.GetRigidbody2D();
+			Rigidbody2D _rb = _movementController.GetRigidbody2D();
 
-			_rb.AddForce(_Force * delta * _playerController.GetDistanceCoeff(dirVector) * _DistanceCoeff * dirVector);
+			_rb.AddForce(_Force * delta * _movementController.GetDistanceCoeff(dirVector) * _DistanceCoeff * dirVector);
 		}
 	}
 }
