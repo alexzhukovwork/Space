@@ -37,4 +37,5 @@ public class HitByBigExplosion : MonoBehaviour
 	{
 		gameObject.SetActive(true);
 	}
+	
 }
