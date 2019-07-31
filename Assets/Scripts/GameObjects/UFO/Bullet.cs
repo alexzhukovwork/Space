@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour
 	private Transform _transform;
 	private GameObject _gameObject;
 
-	private void Start()
+	private void Awake()
 	{
 		_transform = transform;
 		_defaultPosition = _transform.localPosition;
